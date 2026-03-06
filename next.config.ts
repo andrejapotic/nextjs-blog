@@ -9,13 +9,16 @@ const nextConfig: NextConfig = {
         hostname: "images.unsplash.com",
         protocol: "https",
         port: "",
-        pathname: "/**",
       },
       {
         hostname: "different-akita-256.eu-west-1.convex.cloud",
         protocol: "https",
         port: "",
-        pathname: "/**",
+      },
+      {
+        hostname: "rapid-walrus-801.eu-west-1.convex.cloud",
+        protocol: "https",
+        port: "",
       }
     ]
   }
