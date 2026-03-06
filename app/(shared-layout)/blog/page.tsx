@@ -15,7 +15,7 @@ import { Suspense } from "react";
 export const revalidate = 30;*/
 
 export const metadata: Metadata ={
-    title: "Blog | Next.js Project",
+    title: "Blog | Next.js Blog project",
     description: "Read our latest articles, insights, and updates on web development, technology trends, and more.",
     category: "Web Development",
     authors: [{name: "Andreja Potic"}]
