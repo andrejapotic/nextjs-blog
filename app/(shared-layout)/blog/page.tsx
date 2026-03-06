@@ -30,10 +30,10 @@ export default function BlogPage() {
                 <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Our blog</h1>
                 <p className="pt-4 max-w-2xl mx-auto text-xl text-muted-foreground">Insights,thoughts, and trends from our team.</p>
             </div>
-            {/* <Suspense fallback={<SkeletonLoadingUi />}>
-                
-            </Suspense> */}
-            <LoadBlogList />
+             <Suspense fallback={<SkeletonLoadingUi />}>
+                <LoadBlogList />
+            </Suspense> 
+            
         </div>
     )
 }
